@@ -27,3 +27,23 @@ Eliminar ramas forzada
 ```
     git branch -d <nombre-rama> -f
 ```    
+
+Traer las ramas de otros compañeros
+```
+    git pull --all 
+``` 
+Pasarse a la rama del compañero
+```
+    git branch --all 
+    git checkout <nombre_rama>
+``` 
+
+Limpiar ramas no necesarias
+```
+    git remote prune origin
+```
+Eliminar ramas localmente
+```
+    git branch -d <nombre-rama> 
+```
+
